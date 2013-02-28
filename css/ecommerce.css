@@ -1,0 +1,41 @@
+aside {clear: left;}
+
+a {border-bottom: 1px solid transparent;}
+
+.productActions a.ajaxBuyableRemove {visibility: hidden; display: block}
+.productActions:hover a.ajaxBuyableRemove {visibility: visible;}
+
+
+
+
+.Actions:after {content: none;}
+
+
+
+form input.text, form textarea, form .textajaxuniquetext, form select {max-width: 390px;}
+
+
+.middleColumn ul  {padding-left: 0!important; margin-left: 0!important; }
+.middleColumn .selectorderaddress li {list-style-type: none; border: 1px dashed #B80000; margin: 1em 0 1em 0; padding: 1em;}
+.middleColumn .selectorderaddress li .noLongerInUse {display: none;}
+.middleColumn .selectorderaddress li:hover .noLongerInUse {display: inline-block;}
+.middleColumn .selectorderaddress label address {padding: 0; margin: 0;}
+
+
+
+#CancelForm, #CartActionsAndMessages {clear: both; padding-top: 2em;}
+
+
+#CancelForm div.field {margin: 0px; padding: 0px}
+
+
+td.remove a img {background-image: none; border: none; }
+td.remove a:hover {border-bottom: none; }
+
+.orderStepHeading {clear: both;}
+
+.prev a.btn:after {content: "←"}
+
+
+#InformationTable table tr:nth-child(2n) {background-color: transparent;}
+.cartMessage {background-color: #EDEDED;}

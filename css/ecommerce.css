@@ -39,3 +39,5 @@ td.remove a:hover {border-bottom: none; }
 
 #InformationTable table tr:nth-child(2n) {background-color: transparent;}
 .cartMessage {background-color: #EDEDED;}
+
+.Actions input.next {float: right!important;}

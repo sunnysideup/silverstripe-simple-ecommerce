@@ -1,8 +1,19 @@
-aside {clear: left;}
+aside {clear: left; float: left; width: 25%;}
+  body.tablet-nav aside { width: 100%;padding: 0px; background-color: #EDEDED;}
+	aside #Sidebar{padding: 0 10px;-moz-box-sizing: border-box;}
+	body.tablet-nav aside #Sidebar, body.tablet-nav aside nav{ padding:7px; border: none!important;}
+.withSidebar {width: 73%; float: right;}
+	body.tablet-nav .withSidebar {width: 100%; float; none;}
+.withSidebar form {width: auto!important;}
+
+#Sidebar .sidebarBox {margin-bottom: 20px; }
+#Sidebar h3 {color: #AAAAAA; font-size: 20px; border-bottom: 1px solid #EDEDED}
+
+
 
 a {border-bottom: 1px solid transparent;}
 
-.productActions a.ajaxBuyableRemove {visibility: hidden; display: block}
+.productActions a.ajaxBuyableRemove {visibility: hidden; display: inline-block;}
 .productActions:hover a.ajaxBuyableRemove {visibility: visible;}
 
 
@@ -41,3 +52,5 @@ td.remove a:hover {border-bottom: none; }
 .cartMessage {background-color: #EDEDED;}
 
 .Actions input.next {float: right!important;}
+
+.loading {background-image: url(/themes/simple/images/ajax-loader.gif)!important; background-repeat: no-repeat!important; background-position: 50% 50%!important;}

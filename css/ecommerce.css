@@ -1,9 +1,9 @@
 aside {clear: left; float: left; width: 25%;}
-  body.tablet-nav aside { width: 100%;padding: 0px; background-color: #EDEDED;}
-	aside #Sidebar{padding: 0 10px;-moz-box-sizing: border-box;}
-	body.tablet-nav aside #Sidebar, body.tablet-nav aside nav{ padding:7px; border: none!important;}
+        body.tablet-nav aside { width: 100%;padding: 0px; background-color: #EDEDED;}
+        aside #Sidebar{padding: 0 10px;-moz-box-sizing: border-box;}
+        body.tablet-nav aside #Sidebar, body.tablet-nav aside nav{ padding:7px; border: none!important;}
 .withSidebar {width: 73%!important; float: right!important;}
-	body.tablet-nav .withSidebar {width: 100%; float; none;}
+        body.tablet-nav .withSidebar {width: 100%; float; none;}
 .withSidebar form {width: auto!important;}
 
 #Sidebar .sidebarBox {margin-bottom: 20px; }

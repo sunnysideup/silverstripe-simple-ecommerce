@@ -1,6 +1,6 @@
 jQuery.noConflict();
 
-(function($) {  
+(function($) { 
     $(document).ready(function() {
 
                 /* removes text from search form on focus and replaces it on unfocus - if text is entered then it does not get replaced with default on unfocus */

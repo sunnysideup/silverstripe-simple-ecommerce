@@ -1,9 +1,7 @@
-  GNU nano 2.2.6                                                                                                                                                                                                     File: themes/simple/javascript/script.js                                                                                                                                                                                                                                                                                                                                                                                                                 
-
 jQuery.noConflict();
 
-(function($) {    
-    $(document).ready(function() {
+(function($) {  
+    $(document).ready(function() {
 
                 /* removes text from search form on focus and replaces it on unfocus - if text is entered then it does not get replaced with default on unfocus */
                 $('#SearchForm_SearchForm_action_results').val('L');

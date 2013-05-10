@@ -58,8 +58,7 @@ td.remove a:hover {border-bottom: none; }
 
 
 /*** CHECKOUT PAGE ***/
-#InformationTable tr:nth-child(2n) {background-color: transparent;}
-#InformationTable tr.odd td {background-color: #EDEDED;}
-#InformationTable tfoot tr.summary td {font-weight: bold;}
+#InformationTable tr:nth-child(2n), #InformationTable tr.even {background-color: transparent;}
+#InformationTable tr.modifierRow.odd th, #InformationTable tr.summary td {background-color: #EDEDED;}
+#InformationTable tr.summary td {font-weight: bold;}
 #Checkout #ContentHolder {clear: both;}
-

@@ -56,9 +56,10 @@ td.remove a:hover {border-bottom: none; }
 .loading {background-image: url(/themes/simple/images/ajax-loader.gif)!important; background-repeat: no-repeat!important; background-position: 50% 50%!important;}
 
 
+
 /*** CHECKOUT PAGE ***/
 #InformationTable tr:nth-child(2n) {background-color: transparent;}
-#InformationTable tr.summary td {background-color: #EDEDED;}
+#InformationTable tr.odd td {background-color: #EDEDED;}
 #InformationTable tfoot tr.summary td {font-weight: bold;}
 #Checkout #ContentHolder {clear: both;}
 

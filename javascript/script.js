@@ -87,7 +87,7 @@ jQuery.noConflict();
 
                 }
 
-    });
+  });
 }(jQuery));
 
 

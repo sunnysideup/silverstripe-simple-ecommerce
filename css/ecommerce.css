@@ -59,6 +59,6 @@ td.remove a:hover {border-bottom: none; }
 
 /*** CHECKOUT PAGE ***/
 #InformationTable tr:nth-child(2n), #InformationTable tr.even {background-color: transparent;}
-#InformationTable tr.modifierRow.odd th, #InformationTable tr.summary td {background-color: #EDEDED;}
-#InformationTable tr.summary td {font-weight: bold;}
+#InformationTable td {background-color: transparent;}
+#InformationTable tr.summary th, #InformationTable tr.summary td {background-color: #EDEDED;font-weight: bold;}
 #Checkout #ContentHolder {clear: both;}

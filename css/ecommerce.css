@@ -62,3 +62,5 @@ td.remove a:hover {border-bottom: none; }
 table.infotable tr.orderattribute {background-color: transparent;}
 .infotable tr.summary th, .infotable tr.summary td {background-color: #EDEDED;font-weight: bold;}
 #Checkout #ContentHolder {clear: both;}
+
+#Products .productItem {width: 212px;}

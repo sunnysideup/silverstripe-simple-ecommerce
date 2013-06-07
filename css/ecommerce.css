@@ -63,4 +63,13 @@ table.infotable tr.orderattribute {background-color: transparent;}
 .infotable tr.summary th, .infotable tr.summary td {background-color: #EDEDED;font-weight: bold;}
 #Checkout #ContentHolder {clear: both;}
 
-#Products .productItem {width: 212px;}
+
+/*** PRODUCT ACTIONS ***/
+.productActions a.ajaxBuyableRemove {visibility: hidden; display: inline-block;}
+.productActions:hover a.ajaxBuyableRemove {visibility: visible;}
+#Products li.productItem {width: 212px;}
+#Products li.productItem a {width: 182px;}
+#Products li.productItem a span {font-size: 85%;}
+.notInCart span.addLink, .inCart span.removeLink {
+        display: inline!important;
+}

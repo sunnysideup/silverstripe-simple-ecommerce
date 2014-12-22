@@ -62,7 +62,14 @@ td.remove a:hover {border-bottom: none; }
 table.infotable tr.orderattribute {background-color: transparent;}
 .infotable tr.summary th, .infotable tr.summary td {background-color: #EDEDED;font-weight: bold;}
 #Checkout #ContentHolder {clear: both;}
+.cartImage {padding-right: 20px; padding-bottom: 10px; }
 
+/* product questions  module */
+.productQuestionsAnswerHolder {clear: left;}
+.productQuestionsAnswerHolder ul{margin: 0; padding: 0}
+.productQuestionsAnswerHolder ul li{list-style: none;}
+#Form_ProductQuestionsAnswerForm { width: auto!important; padding: 30px;}
+#Form_ProductQuestionsAnswerForm fieldset { }
 
 /*** PRODUCT ACTIONS ***/
 .productActions a.ajaxBuyableRemove {visibility: hidden; display: inline-block;}
@@ -76,8 +83,9 @@ table.infotable tr.orderattribute {background-color: transparent;}
 
 
 /* pop-up stuff */
+#cboxWrapper  {background-color: #000}
 #cboxWrapper #cboxClose {margin-top: 0px;}
-#cboxTitle {padding: 3px; width: 100%; font-weight: bold; text-align: center; background-color: #000}
+#cboxTitle, #cboxTopCenter {padding: 3px; width: 100%; font-weight: bold; text-align: center; background-color: #000}
 #cboxContent table ul {padding: 0px; margin: 0px; }
 #cboxContent table ul li  { margin: 0px; }
 #cboxContent table ul li a { margin: 5px; }

@@ -3,7 +3,9 @@
     "description": "The SilverStripe simple theme (default SilverStripe 3 theme)",
     "type": "silverstripe-theme",
     "keywords": [
-        "silverstripe",
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
         "theme"
     ],
     "license": "BSD-3-Clause",
@@ -14,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "*",
-        "silverstripe/framework": ">=3.0"
+        "silverstripe/framework": "~3.1",
+        "silverstripe/cms": "~3.1"
     }
 }

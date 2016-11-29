@@ -1,3 +1,11 @@
-webfonts/.DS_Store
-images/.DS_Store
-css/.DS_Store
+.sass-cache
+.DS_Store
+npm-debug.log
+/.buildpath
+/.project
+/.settings
+css/GridField_print.css
+admin/thirdparty/chosen/node_modules
+node_modules/
+coverage/
+/**/*.js.map
